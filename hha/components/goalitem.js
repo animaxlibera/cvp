@@ -6,7 +6,7 @@ function goalitem(props) {
      <Text style={styles.goalText}>{props.text}</Text>
     </View>
     );
-};
+}
 
 export default goalitem;
 
