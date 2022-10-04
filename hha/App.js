@@ -24,7 +24,7 @@ export default function App() {
       <View  style={styles.goalscontainer}>
       <FlatList data={courseGoals} renderItem={(itemdata) => {
         
-        return <Goalitem/>;
+        return <Goalitem text={itemdata.item.text}/>;
       }}  />
       </View>
     </View>
