@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { StyleSheet, View, Button, TextInput, FlatList, } from 'react-native';
-import Goalitem from './components/goalitem';
+import Goalitem from './components/Goalitem';
 
 export default function App() {
   const [enteredGoaltext, setEnteredGoalText] = useState('');
@@ -56,5 +56,5 @@ const styles = StyleSheet.create({
  },
  goalscontainer:{
   flex: 5
- },
+ }
 });
